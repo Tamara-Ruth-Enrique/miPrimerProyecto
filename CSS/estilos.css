@@ -4,10 +4,12 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/*color de fondo de toda la pagina*/
 body{
     background-color: #919090;
 }
+
+/*barra de navegacion*/
 header{
     background-color: none; 
     height: 100px;
@@ -26,7 +28,7 @@ height: 70px;
 width: auto;
 }
 
-
+/*fuente de letra de Ibi Shoes*/
 .logo span{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -37,6 +39,8 @@ width: auto;
     float: right;
     
 }
+
+/*lista desordenada de nav*/
 .barra ul li{
     list-style: none;
     display: inline-block;
@@ -58,7 +62,7 @@ text-decoration: none;
     color: rgb(59, 59, 59);
 }
 
-/*arranca lo que es el main*/
+/*arranca lo que es el main NOSOTROS*/
 h1{
     background-color: none;
     font-size: 40px;
@@ -69,77 +73,30 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: underline;
     box-shadow: #834d4d;
-
 }
 
-/*imagenes de los productos*/
+/*imagenes de los productos en index/productos*/
 img{
     padding: 2%;
-    height: 400px;
+    height: 250px;
     width: auto;
+    border-radius: 5%;
 }
-
-.producto-item{
-    align-items: center;
-    background-color: #c5c5c5;
-    border-radius: 40%;
-    
-    
-}
-
-
-
-.productos{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    padding: 20px;
-    
-    
-}
-
-.item{
-    
-    margin-left: 5px;
-    background-color: #dbd5d5;
-
-}
-
-
-.producto .item:hover{
-    box-shadow: 0 10px 20px  rgb(0, 0, 0.20);
-}
-
-
-
-.detallesproducto{
-    padding: 15px 30px;
-}
-
-.item img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-border-radius: 10px 10px;
-}
-
-
 
 /*css de page nosotros*/
-
 main{
     height: 100vh;
     width: 100%;
-    background-color: #333;
+    background-color: #919090;
     background-size: cover;
-    background-position:left;
-    
-    
+    background-position:left; 
 }
 .fondo-nosotros{
     background-image: url(../img/fondonos.jpg);
 }
 
+
+/*css de recuadro de page nosotros*/
 .call{
     border: 5px solid white;
     width: 60%;
@@ -156,11 +113,15 @@ main{
     float: left;
 }
 
+
+/*color y tipo de letra recuadro page nosotros*/
 .titulo1{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+/*css texto dentro del recuadro page nosotros*/
 .call p{
     margin-bottom: 20px;
     color: aliceblue;
@@ -169,6 +130,8 @@ main{
     float: right;
     
 }
+
+/* css boton se seguinos page nosotros*/
 .call a{
     color: white;
     background-color: #645f5f;
@@ -188,6 +151,8 @@ main{
     text-decoration: solid rgb(99, 96, 96);
 }
 
+
+/*pocision de formulario en page contacto*/
 .form-registro{
     width: 400px;
     height: 50%;
@@ -197,26 +162,9 @@ main{
     margin-top: 100px;
     border-radius: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-}
-.botons{
-    border-radius: 20px;
-}
-.call ul li{
-    padding: 20px;
-    text-align: left;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
-    
 }
 
-.call ul{
-    margin-top: 125px;
-
-
-}
-
+/*da forma la formulario de page contacto*/
 .control{
     width: 100%;
     background: #cac8c8;
@@ -228,6 +176,27 @@ main{
     font-size: 18px;
 }
 
+/*boton de enviar*/
+.botons{
+    border-radius: 20px;
+}
+
+/*css de los datos del recuadro de contacto*/
+.call ul li{
+    padding: 20px;
+    text-align: left;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    
+}
+.call ul{
+    margin-top: 125px;
+}
+
+
+
+/*boton de formulario page contacto*/
 .form-registro .botons{
     width: 100%;
     background: #c5c5c5;
@@ -239,6 +208,8 @@ main{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+
+
 /* comienza footer*/
 
 .contenido{
@@ -276,6 +247,4 @@ li{
 .medios-pago{
     text-align: center;
     margin: 10px;
-    
-    
 }
