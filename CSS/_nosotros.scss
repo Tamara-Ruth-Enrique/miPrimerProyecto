@@ -1,0 +1,59 @@
+    /*arranca lo que es el main NOSOTROS*/
+    h1{
+    background: color $color5;;
+    font-size: 40px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    box-shadow: $color5;
+}
+
+/*css de recuadro de page nosotros*/
+.call{
+    border: 5px solid $color2;
+    width: 60%;
+    height: 70%;
+    margin: 30px;
+    padding: 20px;
+    float: right;
+    margin-bottom: 20px;
+    background-color: $color5;
+    width: 50%;
+    
+}
+.call1{
+    float: left;
+}
+
+/*color y tipo de letra recuadro page nosotros*/
+.titulo1{
+    color:$color3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*css texto dentro del recuadro page nosotros*/
+.call p{
+    margin-bottom: 20px;
+    color: $color4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+    float: right;
+    
+}
+
+/* css boton se seguinos page nosotros*/
+.call a{
+    color: $color3;
+    background-color: $color2;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 30px;
+    
+}
+
+.call a:hover{
+    background-color: $color4;
+}

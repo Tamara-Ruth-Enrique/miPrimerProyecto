@@ -1,0 +1,48 @@
+.caja-contenedor .caja{
+    background-color: $Color1;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    border: .1rem solid black;
+    box-shadow: 0 .5rem 1rem rgb(87, 85, 85);
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+} 
+
+.caja-contenedor .caja .fa-atom{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: var(--limon);
+    opacity: .3;
+}
+
+.caja-contenedor .caja .user img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 10rem;
+    width: 10rem;
+    margin-top: 2rem;
+}
+
+.caja-contenedor .caja .user h3{
+    color: $color3;
+    font-size: 2rem;
+
+}
+
+.caja-contenedor .caja .user .star i{
+    color: var(--green);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.caja-contenedor .caja .comentarios{
+    color: black;
+    font-size: 1.5rem;
+    padding: 1rem;
+    
+}
+

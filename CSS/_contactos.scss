@@ -1,0 +1,61 @@
+/*contacto*/
+
+.datos-contacto{
+    text-decoration: solid $color3;
+}
+
+/*pocision de formulario en page contacto*/
+.form-registro{
+    width: 400px;
+    height: 50%;
+    background-color: $color5;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*da forma la formulario de page contacto*/
+.control{
+    width: 100%;
+    background: $color3;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    border: 1px solid $color5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+/*boton de enviar*/
+.botons{
+    border-radius: 20px;
+}
+
+/*css de los datos del recuadro de contacto*/
+.call ul li{
+    padding: 20px;
+    text-align: left;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $color2;
+    
+}
+
+.call ul{
+    margin-top: 125px;
+}
+
+/*boton de formulario page contacto*/
+.form-registro .botons{
+    width: 100%;
+    background: #c5c5c5;
+    border: none;
+    padding: 12px;
+    color: $color3;
+    margin: 16px 0;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}

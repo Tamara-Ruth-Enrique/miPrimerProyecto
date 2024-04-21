@@ -1,250 +1,418 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-/*color de fondo de toda la pagina*/
-body{
-    background-color: #919090;
+body {
+  background-color: rgb(221, 138, 138);
 }
 
 /*barra de navegacion*/
-header{
-    background-color: none; 
-    height: 100px;
-    font-size: 22px;
-    padding: 20px;
+header {
+  background-color: rgb(221, 138, 138);
+  height: 100px;
+  font-size: 22px;
+  padding: 20px;
 }
-/*logo de barra de nav*/
-.logo{
-    float: left;
-    align-items: center;
-    
-} 
 
-.logo2{
-height: 70px;
-width: auto;
+.nav-item {
+  color: white;
+}
+
+/*logo de barra de nav*/
+.logo {
+  float: left;
+  align-items: center;
+}
+
+.logo2 {
+  height: 70px;
+  width: auto;
 }
 
 /*fuente de letra de Ibi Shoes*/
-.logo span{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.logo span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-
 /*barra de nav, todo referido a enlaces*/
-.barra{
-    float: right;
-    
+.barra {
+  float: right;
 }
 
 /*lista desordenada de nav*/
-.barra ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 5px;
-    border-radius: 40%;
-    padding: 10px;
+.barra ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 40%;
+  padding: 10px;
 }
 
-.barra ul li a{
-    
-    color: white;
-    
+.barra ul li a {
+  color: rgb(99, 90, 230);
 }
 
-.barra a{
-text-decoration: none;
+.barra a {
+  text-decoration: none;
 }
-.barra a:hover{
-    color: rgb(59, 59, 59);
+
+.barra a:hover {
+  color: rgb(99, 90, 230);
 }
 
 /*arranca lo que es el main NOSOTROS*/
-h1{
-    background-color: none;
-    font-size: 40px;
-    margin: 20px;
-    padding: 10px;
-    text-align: center;
-    margin-bottom: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-decoration: underline;
-    box-shadow: #834d4d;
+h1 {
+  background: color rgb(212, 79, 179);
+  font-size: 40px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: underline;
+  box-shadow: rgb(212, 79, 179);
 }
 
 /*imagenes de los productos en index/productos*/
-img{
-    padding: 2%;
-    height: 250px;
-    width: auto;
-    border-radius: 5%;
+img {
+  padding: 2%;
+  height: 250px;
+  width: auto;
+  border-radius: 5%;
 }
 
 /*css de page nosotros*/
-main{
-    height: 100vh;
-    width: 100%;
-    background-color: #919090;
-    background-size: cover;
-    background-position:left; 
-}
-.fondo-nosotros{
-    background-image: url(../img/fondonos.jpg);
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(99, 90, 230);
+  background-size: cover;
+  background-position: left;
 }
 
+.fondo-nosotros {
+  background-image: url(../img/fondonos.jpg);
+}
 
 /*css de recuadro de page nosotros*/
-.call{
-    border: 5px solid white;
-    width: 60%;
-    height: 70%;
-    margin: 30px;
-    padding: 20px;
-    float: right;
-    margin-bottom: 20px;
-    background-color: rgba(5, 5, 5, 0.7);
-    width: 50%;
-    
-}
-.call1{
-    float: left;
+.call {
+  border: 5px solid rgb(221, 138, 138);
+  width: 60%;
+  height: 70%;
+  margin: 30px;
+  padding: 20px;
+  float: right;
+  margin-bottom: 20px;
+  background-color: rgb(212, 79, 179);
+  width: 50%;
 }
 
+.call1 {
+  float: left;
+}
 
 /*color y tipo de letra recuadro page nosotros*/
-.titulo1{
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.titulo1 {
+  color: rgb(99, 90, 230);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-
 
 /*css texto dentro del recuadro page nosotros*/
-.call p{
-    margin-bottom: 20px;
-    color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 30px;
-    float: right;
-    
+.call p {
+  margin-bottom: 20px;
+  color: rgb(61, 163, 221);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 30px;
+  float: right;
 }
 
-/* css boton se seguinos page nosotros*/
-.call a{
-    color: white;
-    background-color: #645f5f;
-    text-decoration: none;
-    margin: 20px;
-    padding: 10px 30px;
-    
-}
-.call a:hover{
-    background-color: #bebaba
+/* css boton de seguinos page nosotros*/
+.call a {
+  color: rgb(99, 90, 230);
+  background-color: rgb(221, 138, 138);
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px 30px;
 }
 
+.call a:hover {
+  background-color: rgb(61, 163, 221);
+}
 
 /*contacto*/
-
-.datos-contacto{
-    text-decoration: solid rgb(99, 96, 96);
+.datos-contacto {
+  -webkit-text-decoration: solid rgb(99, 90, 230);
+          text-decoration: solid rgb(99, 90, 230);
 }
 
-
 /*pocision de formulario en page contacto*/
-.form-registro{
-    width: 400px;
-    height: 50%;
-    background-color: #535050;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.form-registro {
+  width: 400px;
+  height: 50%;
+  background-color: rgb(212, 79, 179);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 /*da forma la formulario de page contacto*/
-.control{
-    width: 100%;
-    background: #cac8c8;
-    padding: 10px;
-    border-radius: 20px;
-    margin-bottom: 16px;
-    border: 1px solid #919090;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
+.control {
+  width: 100%;
+  background: rgb(99, 90, 230);
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+  border: 1px solid rgb(212, 79, 179);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
 }
 
 /*boton de enviar*/
-.botons{
-    border-radius: 20px;
+.botons {
+  border-radius: 20px;
 }
 
 /*css de los datos del recuadro de contacto*/
-.call ul li{
-    padding: 20px;
-    text-align: left;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
-    
-}
-.call ul{
-    margin-top: 125px;
+.call ul li {
+  padding: 20px;
+  text-align: left;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(221, 138, 138);
 }
 
-
+.call ul {
+  margin-top: 125px;
+}
 
 /*boton de formulario page contacto*/
-.form-registro .botons{
-    width: 100%;
-    background: #c5c5c5;
-    border: none;
-    padding: 12px;
-    color: rgb(0, 0, 0);
-    margin: 16px 0;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+.form-registro .botons {
+  width: 100%;
+  background: #c5c5c5;
+  border: none;
+  padding: 12px;
+  color: rgb(99, 90, 230);
+  margin: 16px 0;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
 
 /* comienza footer*/
-
-.contenido{
-    max-width: 1200px;
-    margin: 0 auto;
+.contenido {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.footer{
-    padding: 80px 0;
+.footer {
+  padding: 80px 0;
 }
 
-.footer2{
-    display: flex;
-    flex-wrap: wrap;
+.footer2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.footerLinks{
-    width: 25%;
-    padding: 0 15px;
+.footerLinks {
+  width: 25%;
+  padding: 0 15px;
 }
 
-.footerLinks h4{
-    font-size: 20px;
-    color: #dbd5d5;
-    margin-bottom: 25px;
-    font-weight: 500;
-    border-bottom: 2px solid;
-    padding-bottom: 10px;
-    display: inline-block;
+.footerLinks h4 {
+  font-size: 20px;
+  color: rgb(61, 163, 221);
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+  display: inline-block;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-.medios-pago{
-    text-align: center;
-    margin: 10px;
+
+.medios-pago {
+  text-align: center;
+  margin: 10px;
 }
+
+.caja-contenedor .caja {
+  background-color: rgb(0, 0, 0);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  border: 0.1rem solid black;
+  box-shadow: 0 0.5rem 1rem rgb(87, 85, 85);
+}
+
+/*arranca lo que es el main NOSOTROS*/
+h1 {
+  background: color rgb(212, 79, 179);
+  font-size: 40px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: underline;
+  box-shadow: rgb(212, 79, 179);
+}
+
+/*css de recuadro de page nosotros*/
+.call {
+  border: 5px solid rgb(221, 138, 138);
+  width: 60%;
+  height: 70%;
+  margin: 30px;
+  padding: 20px;
+  float: right;
+  margin-bottom: 20px;
+  background-color: rgb(212, 79, 179);
+  width: 50%;
+}
+
+.call1 {
+  float: left;
+}
+
+/*color y tipo de letra recuadro page nosotros*/
+.titulo1 {
+  color: rgb(99, 90, 230);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/*css texto dentro del recuadro page nosotros*/
+.call p {
+  margin-bottom: 20px;
+  color: rgb(61, 163, 221);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 30px;
+  float: right;
+}
+
+/* css boton se seguinos page nosotros*/
+.call a {
+  color: rgb(99, 90, 230);
+  background-color: rgb(221, 138, 138);
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px 30px;
+}
+
+.call a:hover {
+  background-color: rgb(61, 163, 221);
+}
+
+/*contacto*/
+.datos-contacto {
+  -webkit-text-decoration: solid rgb(99, 90, 230);
+          text-decoration: solid rgb(99, 90, 230);
+}
+
+/*pocision de formulario en page contacto*/
+.form-registro {
+  width: 400px;
+  height: 50%;
+  background-color: rgb(212, 79, 179);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/*da forma la formulario de page contacto*/
+.control {
+  width: 100%;
+  background: rgb(99, 90, 230);
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+  border: 1px solid rgb(212, 79, 179);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+}
+
+/*boton de enviar*/
+.botons {
+  border-radius: 20px;
+}
+
+/*css de los datos del recuadro de contacto*/
+.call ul li {
+  padding: 20px;
+  text-align: left;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(221, 138, 138);
+}
+
+.call ul {
+  margin-top: 125px;
+}
+
+/*boton de formulario page contacto*/
+.form-registro .botons {
+  width: 100%;
+  background: #c5c5c5;
+  border: none;
+  padding: 12px;
+  color: rgb(99, 90, 230);
+  margin: 16px 0;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/*imagenes de los productos en index/productos*/
+img {
+  padding: 2%;
+  height: 250px;
+  width: auto;
+  border-radius: 5%;
+}
+
+.caja-contenedor .caja {
+  background-color: rgb(0, 0, 0);
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+  border: 0.1rem solid black;
+  box-shadow: 0 0.5rem 1rem rgb(87, 85, 85);
+  flex: 1 1 30rem;
+  border-radius: 0.5rem;
+}
+
+.caja-contenedor .caja .fa-atom {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: var(--limon);
+  opacity: 0.3;
+}
+
+.caja-contenedor .caja .user img {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 10rem;
+  width: 10rem;
+  margin-top: 2rem;
+}
+
+.caja-contenedor .caja .user h3 {
+  color: rgb(99, 90, 230);
+  font-size: 2rem;
+}
+
+.caja-contenedor .caja .user .star i {
+  color: var(--green);
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.caja-contenedor .caja .comentarios {
+  color: black;
+  font-size: 1.5rem;
+  padding: 1rem;
+}/*# sourceMappingURL=estilos.css.map */
