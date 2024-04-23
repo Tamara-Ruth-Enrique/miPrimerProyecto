@@ -22,10 +22,10 @@
 
 .control {
     width: 100%;
-    background: #9fb3c7;
+    background: $color3;
     padding: 10px;
     border-radius: 16px;
-    border: 1px solid #85a3e2;
+    border: 1px solid $color1;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 
@@ -39,12 +39,12 @@
 }
 
 .form-registro a {
-    color: white;
+    color: $color5;
     text-decoration: none;
 }
 
 .form-registro a:hover{
-    color: rgb(196, 195, 195);
+    color: $color3;
     text-decoration: underline;
 }
 
@@ -53,7 +53,7 @@
     background: #85a3e2;
     border: none;
     padding: 12px;
-    color: white;
+    color: $color5;
     margin: 16px 0;
     font-size: 16px;
 }
@@ -117,7 +117,7 @@ body{
     color: rgb(236, 236, 236);
     margin-bottom: 25px;
     font-weight: 500;
-    border-bottom: 2px sold #000000;
+    border-bottom: 2px sold $color4;
     padding-bottom: 10px;
     display: inline-block;
 

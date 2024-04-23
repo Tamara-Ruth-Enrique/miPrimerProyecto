@@ -33,7 +33,7 @@ h1{
     background: #85a3e2;
     border: none;
     padding: 12px;
-    color: white;
+    color: $color5;
     margin: 30px;
     
     font-size: 16px;
@@ -57,7 +57,7 @@ body{
 }
 
 .footer{
-    background-color: #24262b;
+    background-color: $color5;
     padding: 80px 0;
 
 }
@@ -100,5 +100,5 @@ body{
 }
 
 .mapa{
-   margin-left: 40px;
+    margin-left: 40px;
 }
