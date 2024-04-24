@@ -4,9 +4,42 @@ $color2: #2a8ca5;
 $color3:#81c3d7;
 $color4: black;
 $color5: white;
+$color6: beige;
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px #353333;
+    animation-duration: 2s;
+    animation-name: aparecer; 
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes aparecer {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.zapatos{
+    animation-name:sombra movil;
+}
+@keyframes sombra movil{
+    
+}
 
 
 /*page INDEX*/
+.fondobody{
+    background-image: linear-gradient(rgb(94, 94, 230), red);
+}
 
 .product{
     margin-bottom: 40px;
@@ -30,61 +63,17 @@ body{
 }
 
 /*footer*/
-footer{
-    align-items: end;
-}
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: capitalize;
-}
-
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer{
-    background-color: #24262b;
-    padding: 80px 0;
-
-}
-
-.footer-row{
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.footer-links{
-    width: 25%;
-    padding: 0 15px;
-
-}
-
-.footer-links h4{
-    font-size: 20px;
-    color: rgb(236, 236, 236);
-    margin-bottom: 25px;
-    font-weight: 500;
-    border-bottom: 2px sold $color4;
-    padding-bottom: 10px;
-    display: inline-block;
-
-}
-
-.footer-links ul li a{
-    font-size: 18px;
-    text-decoration: none;
-    color: rgb(188, 236, 236);
-    display: block;
-    margin-bottom: 15px;
-    transition: all .3s ease;
-}
-
-.footer-links ul li a:hover{
-    color: $color5;
-    padding: 6px;
+    footer{
+        align-items: end;
+        .container{
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    }
 }
 
 @import "_contactos.scss";

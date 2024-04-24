@@ -1,118 +1,92 @@
 
 /*page reseñas*/
 
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px #353333;
+    animation-duration: 2s;
+    animation-name: aparecer; 
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
 .caja-contenedor{
     display: flex;
     ;
     justify-content: center;
     flex-wrap: wrap;
-}
-.caja-contenedor .caja{
-    background-color: $color3;
-    margin: 20px;
-    padding: 1rem;
-    text-align: center;
-    position: relative;
-    border: 1rem solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-    flex: 1 1 30rem;
-    border-radius: 4%;
-    
-    }
-.caja-contenedor .caja .fa-atom{
-    position: absolute;
-    top: 1rem;
-    right: 2rem;
-    font-size: 3rem;
-    color: var(--limon);
-    opacity: 0.3;
-}
+    .caja{
+        background-color: $color3;
+        margin: 20px;
+        padding: 1rem;
+        text-align: center;
+        position: relative;
+        border: 1rem solid rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        flex: 1 1 30rem;
+        border-radius: 4%;
+            .fa-atom{
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+        font-size: 3rem;
+        color: var(--limon);
+        opacity: 0.3;
+            }
+                .user{
+                    padding: 10px;
+                    img{
+                        border-radius: 80%;
+                        object-fit: cover;
+                        height: 8rem;
+                        width: 8rem;
+                        margin-top: 2rem;
+                        }
+                        h3{
+                            color: var(--verde);
+                            font-size: 2rem;
+                        }
+                        .stars i{
+                            color: var(--verde);
+                            font-size: 1.5rem;
+                            padding: 1rem 0;
+                        
+                        }
+                        .cometarios{
+                            color: $color4;
+                            font-size: 1.5rem;
+                            padding: 1rem;
+                        
+                        }
+                    }
+        }
+} 
 
-.caja-contenedor .caja .user{
-    padding: 10px;
-}
-
-.caja-contenedor .caja .user img{
-    border-radius: 80%;
-    object-fit: cover;
-    height: 8rem;
-    width: 8rem;
-    margin-top: 2rem;
-}
-
-.caja-contenedor .caja .user h3{
-    color: var(--verde);
-    font-size: 2rem;
-}
-
-.caja-contenedor .caja .user .stars i{
-    color: var(--verde);
-    font-size: 1.5rem;
-    padding: 1rem 0;
-
-}
-
-.caja-contenedor .caja .cometarios{
-    color: $color4;
-    font-size: 1.5rem;
-    padding: 1rem;
-
-}
 
 /*footer*/
-footer{
-    align-items: end;
-}
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: capitalize;
+    footer{
+        align-items: end;
+        .container{
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    }
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer{
-    background-color: #24262b;
-    padding: 80px 0;
-
-}
-
-.footer-row{
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.footer-links{
-    width: 25%;
-    padding: 0 15px;
-
-}
-
-.footer-links h4{
-    font-size: 20px;
-    color: rgb(236, 236, 236);
-    margin-bottom: 25px;
-    font-weight: 500;
-    border-bottom: 2px sold #000000;
-    padding-bottom: 10px;
-    display: inline-block;
-
-}
-
-.footer-links ul li a{
-    font-size: 18px;
-    text-decoration: none;
-    color: rgb(188, 236, 236);
-    display: block;
-    margin-bottom: 15px;
-    transition: all .3s ease;
-}
-
-.footer-links ul li a:hover{
-    color: rgb(250, 250, 250);
-    padding: 6px;
-}
