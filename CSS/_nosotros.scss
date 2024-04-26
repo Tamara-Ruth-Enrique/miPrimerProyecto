@@ -60,11 +60,20 @@ main {
     margin: auto;
 }
 
-iframe{
-    width: 100%;
-    height: 200px;
-    margin-bottom: 200px;
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: end;
+    height: 0;
     
+} 
+
+.map-responsive iframe{
+    left: 0;
+    top: 600px;
+    height: 30%;
+    width: 100%;
+    position: absolute;
 }
 
 
