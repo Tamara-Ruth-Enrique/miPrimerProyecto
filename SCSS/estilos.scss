@@ -18,7 +18,23 @@ h1{
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
+.btn__header-registro, 
+.btn__registro-cover{
+    padding: 14px 50px;
+    border: none;
+    background: black;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background, color, 300ms;
+}
 
+.btn__header-registro:hover,
+.btn__registro-cover:hover{
+    background: rgb(142, 151, 142);
+    color: black;
+}
 
 
 
